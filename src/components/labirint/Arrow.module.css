@@ -1,0 +1,25 @@
+.downBlock{
+    position:absolute;
+    background-color: #6c24e0;
+    width: 60%;
+    height: auto;
+    left:20%;
+    margin: -40px;
+    border: 40px;
+    text-align: center;
+}
+.arrow{
+float: left;
+width:50px; 
+height:50px; 
+background:#0be04b; 
+float:left; 
+margin: 0 30px 15px 0; 
+text-align:center;
+padding: 10px;
+
+}
+
+li {
+    list-style-type: none;
+   }

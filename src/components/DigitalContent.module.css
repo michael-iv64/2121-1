@@ -1,0 +1,148 @@
+.canv {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0%;
+    overflow: hidden;
+    background: rgb(217, 222, 233);
+    color:aqua;
+    z-index: -1;
+    cursor: pointer;
+    /* cursor: none; */
+}
+
+.mikroMenu {
+    position:absolute;
+    width: 250px;
+    height: 300px;
+    background-color: #7d67df4d;
+    right: 0%;
+    top: 30%;
+    color: aliceblue;
+    text-align: center;
+}
+li { 
+    list-style: none;
+    margin-left: -50px;
+ }
+ .color {
+     background-color: #4ec4cc32;
+     background-color: #2ad16a75;
+     background-color: #16e7e794;
+     background-color: #29e47121;
+ }
+ .modal{
+     left: 20%;
+     top: 20%;
+     position: absolute;
+     height: 600px;
+     width: 60%;
+     background-color: rgb(21, 241, 149);
+     color: #1a1de6;
+ }
+
+ .openTest{
+    width: 100;
+    height: 50;
+    background-color: rgb(25, 133, 11);
+    color: antiquewhite;
+    border: solid 3px;
+    border-color:aqua;
+    border-radius: 10px;
+    z-index: 10;
+}
+.openTest:hover{
+
+    background-color: rgb(52, 233, 29);
+    color: #036127e8;
+
+}
+.reset{
+    width: 100;
+    height: 50;
+    background-color: rgb(211, 60, 166);
+    color: antiquewhite;
+    border: solid 3px;
+    border-color:aqua;
+
+}
+.counter{
+    background-color: rgb(159, 209, 205);
+}
+.topMenu{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: rgb(42, 151, 194);
+    height: 150px;
+    width: 30%;
+    color: aliceblue;
+    text-align: right;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+.left{
+    left: 0px;
+    background-color: rgb(29, 163, 123);
+}
+.bottom{
+    background-color: rgb(29, 163, 123);
+    top:60%;
+    left: 5%;
+    /* bottom: 200px;  */
+}
+
+.icon1{
+    left: 0;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    background-color: rgb(25, 148, 111);
+}
+.icon{
+    left: 0;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    background-color: rgb(19, 226, 106);
+}
+ .icon:hover{
+    background-color: rgb(13, 23, 161);
+    height: 51px;
+    width: 51px;
+    transition: all 0.5s ease-out;
+
+}
+.inCircle{
+    color:antiquewhite;
+    z-index: 6;
+}
+.circle{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(29, 104, 139);
+    border-radius: 50%;
+
+}
+.colors{
+    background-color: rgb(29, 104, 139);
+    background-color: rgb(30, 133, 151);
+    background-color: rgb(25, 148, 111);
+    background-color: rgb(29, 163, 123);
+    background-color: rgb(42, 151, 194);
+  
+}
+.body{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: -1;
+}

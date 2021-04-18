@@ -1,0 +1,35 @@
+.iconContainer {
+    position:absolute;
+    height: 100%;
+    width:50px;
+    background-color: rgba(16, 69, 182, 0.075);
+    margin: 20px;
+}
+.icon{
+    left: 0;
+    height: 50px;
+    /* width: auto; */
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+    background-color: rgb(25, 148, 111);
+}
+ .icon:hover{
+    background-color: rgb(42, 151, 194);
+    height: 51px;
+    width: 51px;
+    transition: all 0.5s ease-out;
+
+}
+.title{
+    color: aliceblue;
+}
+.main{
+    text-align: center;
+    /* background-color: rgb(196, 17, 107); */
+    width: 100%;
+    height: 100%;
+}
+li{
+    list-style-type: none;
+}

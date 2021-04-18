@@ -1,0 +1,29 @@
+.canv {
+    margin: 0%;
+    overflow: hidden;
+    background: rgb(8, 83, 145);
+    color:aqua;
+    /* cursor: none; */
+    background-image: url('../img/2035/environment/окружение 10.png')
+}
+
+.mikroMenu {
+    position:absolute;
+    width: 150px;
+    height: 300px;
+    background-color: rgba(72, 36, 235, 0.3);
+    right: 0%;
+    top: 30%;
+    color: aliceblue;
+    text-align: center;
+}
+li { 
+    list-style: none;
+    margin-left: -50px;
+ }
+ .color {
+     background-color: #4ec4cc32;
+     background-color: #2ad16a75;
+     background-color: #16e7e794;
+     background-color: #29e47121;
+ }
