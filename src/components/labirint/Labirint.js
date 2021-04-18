@@ -150,8 +150,8 @@ class Labirint extends Component {
       window.onmousemove = function (e) {
         mouse.x = e.pageX;
         mouse.y = e.pageY;
-        console.log(mouse.x, mouse.y)
-        console.log('offsetX',offsetX, 'offsetY',offsetY)
+        // console.log(mouse.x, mouse.y)
+        // console.log('offsetX',offsetX, 'offsetY',offsetY)
           };
       }
     handleRefresh = () => {

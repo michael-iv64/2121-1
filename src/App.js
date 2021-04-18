@@ -54,19 +54,19 @@ export default class App extends Component {
                 <nav>
                     <ul className={styles.iconContainer}>
                         <li>
-                            <Link to="/" className={styles.title}>Главная <img className={styles.icon} alt="factory" src={icon2} title='Surface of the Planet'/></Link>
+                            <Link to="/" className={styles.title}>Главная <img className={styles.icon} alt="main" src={house} title='main'/></Link>
                         </li><br />
                         <li>
-                            <Link to="/information" className={styles.title}>Информация<img className={styles.icon} alt="solar" src={icon1} title='SolarSystem'/></Link>
+                            <Link to="/information" className={styles.title}>Информация<img className={styles.icon} alt="user" src={icon1} title='user'/></Link>
                         </li><br />
                         <li>
-                            <Link to="/commucations" className={styles.title}>Новый тест<img className={styles.icon} alt="stars" src={icon3} title='Star map'/></Link>
+                            <Link to="/commucations" className={styles.title}>Новый тест<img className={styles.icon} alt="homer" src={icon3} title='homer'/></Link>
                         </li><br />
                         <li>
-                            <Link to="/defenceData" className={styles.title}>Лабиринт<img className={styles.icon} alt="ship2" src={cup} title='SpacePort'/></Link>
+                            <Link to="/defenceData" className={styles.title}>Лабиринт<img className={styles.icon} alt="labirint" src={cup} title='labirint'/></Link>
                         </li><br />
                         <li>
-                            <Link to="/DigitalContent" className={styles.title}>Цифровой контент<img className={styles.icon} alt="planet" src={house} title='Planets'/></Link>
+                            <Link to="/DigitalContent" className={styles.title}>Цифровой контент<img className={styles.icon} alt="user" src={icon2} title='users'/></Link>
                         </li><br />
                     </ul>
 

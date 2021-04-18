@@ -16,6 +16,8 @@ import man from '../img/2035/student/13-man.png';
 import robot from '../img/2035/student/robot.png';
 import homerFace from '../img/2035/simsons/Homer2.jpg';
 import robotFace from '../img/2035/robots/robo/robo1.png'
+import icon1 from '../img/2035/new/face/bface.png';
+
 
 // ----- sprites -----------------
 import {tick, tickVertical, tickHorizontal, tickSimple, tick2} from '../utils/functions/spriteTick';
@@ -495,8 +497,8 @@ class Circle {
         context.closePath()
         
         // distToM <= 50  && console.log('points', points);
-        let w = 1;
-        distToM <= 50  && alertMe(w, points);
+        // let w = 1;
+        // distToM <= 50  && alertMe(w, points);
         // distToM <= 50  && this.props.actionCfg(w, points);
         
         // -------  data   ----------------------
@@ -525,7 +527,7 @@ class Circle {
         
       }
 
-        this.angle = (this.angle + this.velocity/50) % 360;
+        this.angle = (this.angle + this.velocity/5) % 360;
         // this.angle = (this.angle - this.velocity) % 360;
     }
   }
@@ -633,14 +635,14 @@ class Circle {
         return(
         <>
         {/*  --- person menu    */}
-        <div className={styles.topMenu}><h3> <img className={styles.icon1} alt="solar" src={homerFace} title='SolarSystem'/>&emsp;  
+        <div className={styles.topMenu}><h3> <img className={styles.icon1} alt="user" src={icon1} title='User'/>&emsp;  
           {this.props.knowledge[0].type} : {this.props.knowledge[0].points}
           {/* sequrity : {this.state.points} */}
           &emsp;
           {this.props.knowledge[1].type} : {this.props.knowledge[1].points}
           </h3></div>
           {/*  --- questions */}
-        <div className={`${styles.topMenu} ${styles.bottom} ` }><h3> Вопрос &emsp; {this.props.knowledge[0].questions[2].question}  <img className={styles.icon1} alt="solar" src={robotFace} title='SolarSystem'/>&emsp;  
+        <div className={`${styles.topMenu} ${styles.bottom} ` }><h3> Вопрос &emsp; {this.props.knowledge[0].questions[2].question}  <img className={styles.icon1} alt="user" src={robotFace} title='robo'/>&emsp;  
           
           </h3></div>
             {this.state.modal && <div className={styles.modal}>test</div>}

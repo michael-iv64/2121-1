@@ -8,20 +8,22 @@ class Circle extends  React.Component{
         super(props);
         this.state = {}
     }
+
      makeArr(){
         this.props.knowledge[0].questions.map(item=> {
-            let arr = item.answer 
+            let arr = item
+            // seTimeout()
             console.log('arr', arr)
             return arr
         });
     }
-  
+    
     render(){
-        this.makeArr()
+
       let arr= this.props.knowledge[0].questions[0].answers;
         return arr.map(items => <div className={styles.circle}
               key={items.id}  onClick={() => this.props.setPointsAction( {id:1, points: items.points})}
-              ><br /> <br />{items.data} <br/>{items.points}</div>)
+              ><br /> <br />{items.data} <br/></div>)
 
     }
 }

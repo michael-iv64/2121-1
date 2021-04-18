@@ -13,7 +13,8 @@ import { setSelectedAction} from '../actions/actionsCreator';
 import bart from '../img/2035/student/bart_simpson.png';
 import homer from '../img/2035/student/homer_simpson1.png';
 import man from '../img/2035/student/13-man.png';
-import robot from '../img/2035/student/robot.png';
+import robot1 from '../img/2035/student/robot.png';
+import robot from '../img/2035/new/robo/robo1.png'
 
 // ----- sprites -----------------
 import {tick, tickVertical, tickHorizontal, tickSimple, tick2} from '../utils/functions/spriteTick';
@@ -249,7 +250,7 @@ class PersonClass {
                   contex.arc(x2, y2, rotate*this.size, 0, 2 * Math.PI, false);
                   // context.ellipse(x2, y2, this.size/1.9, this.size/1.9, Math.PI/2, 0, 2 * Math.PI);
                   contex.fillStyle = '#4ec4cc17';
-                  contex.fillStyle = '#29e47121';
+                  // contex.fillStyle = '#29e47121';
                   contex.fill();
                   contex.lineWidth = 1.5;
                   contex.strokeStyle = '#16e7e794';
@@ -260,7 +261,7 @@ class PersonClass {
                   //  ---  выделяем  станцию  в круг   finish ------
                   
                     contex.beginPath();
-                    contex.drawImage(imgForOut, x, y, size , size*2 )
+                    contex.drawImage(imgForOut, x, y, size*2 , size*2 )
     }
   }
 
